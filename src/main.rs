@@ -39,6 +39,9 @@ fn fetch_url(url: hyper::Uri) -> impl Future<Item=(), Error=()> {
                     .map_err(|e| panic!("http_getter expects stdout is open, error={}", e))
             })
         })
+        .map(|_|{
+            println!();
+        })
         .map_err(|err| {
             eprintln!("Error {}", err);
         })
