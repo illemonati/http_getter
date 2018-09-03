@@ -1,0 +1,8 @@
+[package]
+name = "http_getter"
+version = "0.1.0"
+authors = ["illemonati <tonymiaotong@tioft.tech>"]
+
+[dependencies]
+hyper = "*"
+hyper-tls = "*"
