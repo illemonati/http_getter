@@ -162,7 +162,7 @@ dependencies = [
 
 [[package]]
 name = "http_getter"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "hyper 0.12.9 (registry+https://github.com/rust-lang/crates.io-index)",
  "hyper-tls 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
